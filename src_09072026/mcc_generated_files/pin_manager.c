@@ -85,7 +85,7 @@ void PIN_MANAGER_Initialize (void)
      * Setting the Open Drain SFR(s)
      ***************************************************************************/
     ODCA = 0x0000;
-    ODCB = 0x0000;
+    ODCB = 0x0060;  //PIN RB5 & RB6 set as open Drain
     ODCC = 0x0000;
 
     /****************************************************************************
